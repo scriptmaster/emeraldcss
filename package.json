@@ -1,0 +1,38 @@
+{
+  "name": "emeraldcss",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "## HTML Quick Start",
+  "main": "apps/cdn/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": "./dist/cdn/main.css",
+    "./index.css": "./dist/cdn/main.css",
+    "./main.css": "./dist/cdn/main.css",
+    "./font": "./dist/cdn/SFPRODISPLAYREGULAR-6PKAZPAV.woff",
+    "./font.woff": "./dist/cdn/SFPRODISPLAYREGULAR-6PKAZPAV.woff"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git@github.com/scriptmaster/emeraldcss.git"
+  },
+  "keywords": [
+    "emerald",
+    "emeraldcss",
+    "css",
+    "scss",
+    "sheriff",
+    "scriptmaster",
+    "emerald-css",
+    "emerald_css",
+    "emerald-styles"
+  ],
+  "author": "https://github.com/scriptmaster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scriptmaster/emeraldcss/issues"
+  },
+  "homepage": "https://github.com/scriptmaster/emeraldcss#readme"
+}
