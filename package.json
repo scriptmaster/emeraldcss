@@ -1,9 +1,9 @@
 {
   "name": "emeraldcss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
-  "description": "## HTML Quick Start",
-  "main": "apps/cdn/main.ts",
+  "description": "EmeraldCSS: An opinionated, semantic, modern CSS framework",
+  "main": "dist/cdn/main.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
