@@ -29,8 +29,6 @@ An enterprise-ready, modern, unobtrusive and elegant semantic-css framework (<10
 ```
 ```
 
-
-
 ### Designs and Inspirations:
 
 emeraldcss
