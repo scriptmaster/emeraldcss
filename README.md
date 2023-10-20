@@ -1,6 +1,6 @@
-# emeraldcss
+# garnetcss
 
-A modern, unobtrusive and elegant semantic-css framework (<20KB).
+An enterprise-ready, modern, unobtrusive and elegant semantic-css framework (<100KB) based on emeraldcss.
 
 # Quick Start
 
@@ -33,6 +33,4 @@ A modern, unobtrusive and elegant semantic-css framework (<20KB).
 
 ### Designs and Inspirations:
 
-#### Mac:
-https://contexts.co
-
+emeraldcss
