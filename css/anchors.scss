@@ -1,0 +1,27 @@
+a, a:visited {
+    color: #333;
+}
+
+a:hover { text-decoration: none; }
+
+li > a {
+    display: inline-block;
+    padding: 0 var(--gap2);
+    &:hover { background-color: rgba(0,0,0,0.2); }
+}
+
+.main.menu li > a:hover {
+    border-bottom: 1px solid var(--color-attention);
+}
+
+.icon-link, a.icon-link, a.icon {
+    display: block;
+    padding: 10px;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+    &:hover {
+        background-color: transparent;
+    }
+}
+
