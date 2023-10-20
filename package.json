@@ -1,6 +1,6 @@
 {
   "name": "garnetcss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Enterprise CSS based on emeraldcss",
   "main": "./dist/cdn/main.css",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git@github.com/scriptmaster/garnetcss.git"
+    "url": "https://github.com/scriptmaster/emeraldcss/tree/garnetcss"
   },
   "keywords": [
     "garnet",
@@ -40,5 +40,5 @@
   "bugs": {
     "url": "https://github.com/scriptmaster/emeraldcss/issues"
   },
-  "homepage": "https://github.com/scriptmaster/emeraldcss#readme"
+  "homepage": "https://github.com/scriptmaster/emeraldcss/tree/garnetcss#readme"
 }
