@@ -1,5 +1,5 @@
 .directed-layout {
-    --directed-size: 60px;    
+    --directed-size: 60px;
 
     --v-icon-color: currentColor;
     --v-icon-color-hover: currentColor;
@@ -45,6 +45,18 @@
     main {
         padding: 24px;
         margin: 0;
+    }
+
+    .thin & {
+        --directed-size: 50px;
+
+        header {
+            height: 50px;
+        }
+
+        main {
+            padding: 8px 12px;
+        }
     }
 
 }
