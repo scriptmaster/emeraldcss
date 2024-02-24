@@ -1,11 +1,14 @@
 {
   "name": "emeraldcss",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "EmeraldCSS: An opinionated, semantic, modern CSS framework",
   "main": "dist/cdn/main.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sergeant emeraldcss && cp ../dist/emeraldcss/main.css ./dist/cdn/",
+    "dev": "sergeant emeraldcss --serve",
+    "install-deno": "curl -fsSL https://deno.land/install.sh | sh",
+    "install": "deno install -A -f https://cdn.jsdelivr.net/gh/scriptmaster/sergeant@1.2.0/sergeant.ts"
   },
   "exports": {
     ".": "./dist/cdn/main.css",
@@ -16,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git@github.com/scriptmaster/emeraldcss.git"
+    "url": "https://github.com/scriptmaster/emeraldcss.git"
   },
   "keywords": [
     "emerald",

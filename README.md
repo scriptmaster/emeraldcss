@@ -7,11 +7,15 @@ A modern, unobtrusive and elegant semantic-css framework (<20KB).
 ## HTML Quick Start
 
 ```html
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
     <title>CSS</title>
-    <link rel="stylesheet" href="/main.css" />
+
+    <link rel="stylesheet" href="/main.css" type="text/css" />
 </head>
 <body>
     <header>
@@ -23,12 +27,13 @@ A modern, unobtrusive and elegant semantic-css framework (<20KB).
 </html>
 ```
 
-
 ## React Quick Start
 
 ```
+sergeant create react emeraldapp
 ```
 
+sergeant: http://github.com/scriptmaster/sergeant
 
 
 ### Designs and Inspirations:
@@ -36,3 +41,20 @@ A modern, unobtrusive and elegant semantic-css framework (<20KB).
 #### Mac:
 https://contexts.co
 
+## Semantic Menu
+
+```html
+<body>
+<header>
+    <nav>
+        <a href="/">Logo + Name</a>
+        <ul>
+            <li><a href="/docs">Docs</a></li>
+            <li><a href="/login">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+...
+
+```
